@@ -110,7 +110,7 @@ z-index:3
   height: 38px;
   line-height: 36px;
   padding: 0 16px 0 7px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   color: #585858;
   text-shadow: none!important;
   font-size: 13px;
@@ -163,7 +163,7 @@ z-index:3
   top: -1px;
   bottom: 0;
   z-index: 1;
-  border: 2px solid #dd4814;
+ 
   border-width: 0 2px 0 0
 }
 

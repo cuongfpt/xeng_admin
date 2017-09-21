@@ -10,7 +10,7 @@
                         <img src="<?php echo public_url('admin/images/menuicon.png') ?>">
                     </a></li>
 				<li><a target="_blank" href="<?php echo base_url('admin')?>">
-					<img src="<?php echo public_url('admin')?>/images/icons/light/home.png" style="margin-top:7px;">
+					<img src="<?php echo public_url('admin')?>/images/icons/light/home.png" style="margin-top:30px;">
 					<span>Trang chủ</span>
 				</a></li>
 

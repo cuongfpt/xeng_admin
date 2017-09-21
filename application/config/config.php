@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:81/vinplay-admin';
+$config['base_url'] = 'http://localhost:81/xeng_admin';
 //$config['api_url'] = "http://api.vinplay.com:8081/api";
 $config['api_url'] = "http://104.199.239.38:8081/api";
 //$config['api_url1'] = "http://104.199.233.155:8081/api";

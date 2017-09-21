@@ -14,23 +14,15 @@
     <input type="hidden" id="iduser">
 
     <div style="height:auto; margin:auto;" id="admin_login" class="widget">
-        <div class="title"><img class="titleIcon" alt=""
-                                src="<?php echo public_url('admin') ?>/images/icons/dark/laptop.png">
-            <h6>Đăng nhập</h6>
+        <div class="title">
+            <span>Đăng nhập</span>
         </div>
         <form method="post" action="" id="form" class="form">
 
             <div class="formRow">
-                <label for="param_username">Tên đăng nhập:</label>
-
-                <div class="loginInput"><input type="text" id="param_username" name="username"></div>
-                <div class="clear"></div>
-            </div>
-            <div class="formRow">
-                <label for="param_password">Mật khẩu:</label>
-
-                <div class="loginInput"><input type="password" id="param_password" name="password"></div>
-                <div class="clear"></div>
+                <input type="text" id="param_username" name="username" class="loginInput" placeholder="Tên đăng nhập">
+                <input type="password" id="param_password" name="password" class="loginInput" placeholder="Mật khẩu">
+          
             </div>
             <div class="loginControl">
                 <div style="color:red;font-weight:blod;text-align:center"
@@ -81,7 +73,7 @@
     </div>
 </div>
 </div>
-<?php $this->load->view('admin/footer') ?>
+
 </body>
 </html>
 <script>

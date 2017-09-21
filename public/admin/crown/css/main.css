@@ -46,7 +46,7 @@
 html { height: 100%; background: transparent url(../images/backgrounds/bg.jpg); }
 .html { height: 100%;  }
 body { min-height: 100%; font-size: 12px; color: #595959; font-family: Arial, Helvetica, sans-serif; line-height: 20px; position: relative; }
-.main-body { background: url(../images/backgrounds/bodyBg.png) repeat-y 0 0; }
+.main-body {  }
 
 @media screen and (max-width: 992px) and (min-width: 320px){
     .main-body {
@@ -89,7 +89,7 @@ p { padding-top: 12px; }
 
 /* Dividers */
 
-.line { height: 8px; background: url(../images/divider.png) repeat-x; display: block; }
+.line { display: block; }
 .cLine { height: 4px; background: url(../images/contentDivider.png) repeat-x; }
 .sidebarSep { background: url(../images/sidebarSep.png) no-repeat 50%; height: 8px; width: 100%; margin: 16px 0; }
 
@@ -105,7 +105,7 @@ p { padding-top: 12px; }
 .floatR { float: right; }
 .floatL { float: left; }
 
-.nobg { background: none!important; }
+.nobg { background: #548edf !important; }
 .nomargin { margin: 0; }
 .nomarginL { margin-left: 0!important; }
 .nomarginR { margin-right: 0!important; }
@@ -113,7 +113,7 @@ p { padding-top: 12px; }
 
 .sideMargin { margin: 0 12px; }
 
-#leftSide { background: url(../images/backgrounds/leftTop.png) repeat-x 0 0; margin: 0 2px; float: left; width: 216px; padding: 0 1px; padding-bottom: 60px; }
+#leftSide { float: left; width: 260px;background: #fff;  }
 #rightSide { padding-bottom: 200px; overflow: hidden; }
 
 .scroll { height: 182px; overflow: auto; }
@@ -135,16 +135,16 @@ select[multiple] { border: 1px solid #ddd; box-shadow: 0 0 0 2px #f4f4f4; -webki
 .loginPage .topNav { text-align: center; position: static; }
 .loginPage .userNav, .loginPage .userNav ul { float: none; border: none; }
 .loginPage .userNav ul li { display: inline-block; float: none; margin-left: -4px; }
-.loginPage input[type=text], .loginPage input[type=password] { width: 100%!important }
+.loginPage input[type=text], .loginPage input[type=password] { width: 90%!important }
 .loginPage #footer .wrapper { padding-left: 0; }
-.loginPage .formRow { padding: 18px 14px; }
+.loginPage .formRow { padding: 5px 5px; }
 
-.loginWrapper { margin: -119px 0 0 -170px; position: absolute; top: 50%; left: 50%; }
-.loginWrapper .widget { width: 340px; background: #f9f9f9; border: 1px solid #cdcdcd; display: block; height: 236px; }
+.loginWrapper { margin: -119px 0 0 -170px; position: absolute; top: 50%; left: 50%; background: #fff;}
+.loginWrapper .widget { width: 400px; background: #fff; display: block; height: 300px; }
 .loginLogo { position: absolute; width: 236px; height: 60px; display: block; top: -55px; left: 50%; margin-left: -118px; }
-.loginControl { border-top: 1px solid #fff; padding: 16px 14px; }
+.loginControl { border-top: 1px solid #fff; padding: 30px 14px; }
 .logMeIn { float: right; padding: 7px 20px 8px 20px!important; }
-.loginInput { width: 180px; float: right; margin-right: 14px!important; }
+.loginInput { width: 90%; display: block;margin: 0 auto }
 
 .rememberMe { float: left; margin-top: 6px; }
 .rememberMe label { width: auto; display: block; white-space: nowrap; margin: -2px 14px 0 14px; float: left; cursor: pointer; }
@@ -198,24 +198,24 @@ text-shadow: 0 1px 0 #ccc,
 ================================================== */
 
 .topNav { background: url(../images/backgrounds/topnavBg.png) repeat-x; display: block; color: #eeeeee; margin: 0 0 0 -2px; padding: 3px 0; position: fixed; width: 100%; z-index: 999; }
-.userNav { border-left: 1px solid #39454f; border-right: 1px solid #39454f; margin-right: -2px; }
+.userNav { margin-right: -2px; }
 
 .welcome { float: left; margin-left: -4px; }
 .welcome img { float: left; margin: 6px 8px 6px 0 }
 .welcome span { padding: 4px 5px; display: block; white-space: nowrap; float: left; font-size: 11px; }
 
-.userNav { float: right; z-index: 6000; position: relative; font-size: 11px; margin-right: 214px; }
+.userNav { float: right; z-index: 6000; position: relative; font-size: 17px; margin-right: 214px;line-height: 65px }
 @media screen and (max-width: 992px) and (min-width: 320px){
     .userNav{
         float: left;
     }
 }
-.userNav ul { border-left: 1px solid #39454f; border-right: 1px solid #39454f; margin-right: -1px; }
-.userNav ul li { display: inline; float: left; position: relative; cursor: pointer; border-left: 1px solid #1c262b; border-right: 1px solid #1c262b; margin-left: -1px; }
-.userNav ul li a { color: #eeeeee; text-decoration: none; display: block; float: left; border-left: 1px solid #39454f; border-right: 1px solid #39454f; }
+.userNav ul { margin-right: -1px; }
+.userNav ul li { display: inline; float: left; position: relative; cursor: pointer; margin-left: -1px; }
+.userNav ul li a { color: #eeeeee; text-decoration: none; display: block;  }
 .userNav ul li a:hover { border-left: 1px solid #293138; border-right: 1px solid #293138; background-color: #293138; }
 .userNav ul li span { display: block; padding: 4px 15px 4px 8px; float: left; }
-.userNav ul li img { float: left; display: block; margin: 9px 2px 0px 14px; }
+.userNav ul li img { float: left; display: block; margin: 30px 2px 0px 14px; }
 .userNav ul li.iconmenu{
  display: none;
 }
@@ -320,8 +320,8 @@ ul.sub li ul li { padding-left: 10px; }
 
 /* Profile */
 
-.sideProfile { padding: 0 12px; font-size: 11px; color: #CECECE; position: relative; }
-.sideProfile span { display: block; }
+.sideProfile { padding: 20px 12px; font-size: 11px; color: #CECECE; position: relative; }
+.sideProfile span { display: block; line-height: 35px;color: #fff;font-size: 17px;}
 .sideProfile span a { color: white; font-weight: bold; }
 .sideProfile ul { display: none; border-left: 1px solid #1c252a; border-right: 1px solid #1c252a; border-top: 1px solid #1c252a; position: absolute; top: 76px; z-index: 980; width: 190px; }
 .sideProfile ul li { background: #2f363c; border-top: 1px solid #444b52; border-bottom: 1px solid #1c252a; }
@@ -451,10 +451,10 @@ ul.sub li ul li { padding-left: 10px; }
 
 /* === Title area with middle navigation === */
 
-.titleArea { padding-top: 36px; }
+.titleArea { padding-top: 0px; }
 
-.pageTitle { float: left; padding: 35px 0 32px 0; }
-
+.pageTitle { float: left; padding: 15px 0 15px 0; }
+.pageTitle h5 { text-transform: uppercase;font-size: 20px;color: #000; }
 .middleNav { float: right; border: 1px solid #cdcdcd; margin: 29px 0; }
 .middleNav ul { }
 .middleNav ul li { display: block; float: left; border-left: 1px solid #cdcdcd; position: relative; }
@@ -548,7 +548,7 @@ ul.sub li ul li { padding-left: 10px; }
 /* Buttons
 ================================================== */
 
-.button, button, input[type=submit], input[type=reset], input[type=button] { font-size: 10px; font-weight: bold; background-image: url(../images/ui/usualButtons.png); background-repeat: repeat-x; text-transform: uppercase; white-space: nowrap; cursor: pointer; font-family: Arial, Helvetica, sans-serif; line-height: 12px; display: inline-block; max-height: 29px; }
+.button, button, input[type=submit], input[type=reset], input[type=button] { font-size: 10px; font-weight: bold; background: #548edf; background-repeat: repeat-x; text-transform: uppercase; white-space: nowrap; cursor: pointer; font-family: Arial, Helvetica, sans-serif; line-height: 12px; display: inline-block; max-height: 29px; }
 
 input[type=submit], input[type=reset], input[type=button], button { padding: 7px 18px 8px 18px; }
 
@@ -586,7 +586,7 @@ input[type=submit], input[type=reset], input[type=button], button { padding: 7px
 .greenB:hover { background-position: 0 -453px; }
 .greenB:active { background-position: 0 -481px; }
 
-.dredB { background-position: 0 -510px; border: 1px solid #893f3f; color: #fff; }
+.dredB { background-position: 0 -510px; border: 1px solid #a5c4ee; color: #fff; }
 .dredB:hover { background-position: 0 -538px; }
 .dredB:active { background-position: 0 -566px; }
 
@@ -700,8 +700,13 @@ input[type=submit], input[type=reset], input[type=button], button { padding: 7px
 
 /* General widgets styles */
 
-.widget { background: #f9f9f9; border: 1px solid #cdcdcd; margin-top: 10px; clear: both; }
-.widget .title { height: 36px; background: #efefef url(../images/backgrounds/titleBg.png) repeat-x; border-bottom: 1px solid #cdcdcd; }
+.widget { background: #fff; border: 1px solid #cdcdcd; margin-top: 10px; clear: both;padding: 10px }
+.widget .title { height: 50px;  }
+.widget .title span{
+  line-height: 70px;
+  font-size: 25px;
+  padding-left: 25px;
+}
 .widget .title .titleIcon { float: left; padding: 11px 11px; border-right: 1px solid #D5D5D5; }
 
 .toggle { background: #f9f9f9; border: 1px solid #cdcdcd; margin-top: 32px; clear: both; border-bottom: none; }
@@ -713,7 +718,7 @@ input[type=submit], input[type=reset], input[type=button], button { padding: 7px
 
 
 .widget .loader { float: right; margin: 12px 12px 0 0; }
-.widget .title h6 { float: left; font-size: 12px; font-weight: bold; padding: 9px 12px 8px 12px; }
+.widget .title h6 { float: left; font-size: 16px; font-weight: bold; padding: 9px 12px 8px 12px;;text-transform: uppercase; }
 .widget .content { padding: 14px; }
 .widget .body { padding: 12px 14px; }
 .widget > p { padding: 12px; }
@@ -1057,7 +1062,7 @@ table thead td.headerSortDown span { background: url(../images/icons/sortDown.pn
 
 /* ===== General form styles ===== */
 
-.formRow { padding: 15px 14px; clear: both; border-bottom: 1px solid #E2E2E2; border-top: 1px solid white; position: relative; }
+.formRow { padding: 5px 5px; clear: both;  position: relative; }
 .formRow:first-child { border-top: none; }
 .formRow:last-child { border-bottom: none; }
 .ui-formwizard .formRow:last-child { border-bottom: 1px solid #E2E2E2 ; }
@@ -1078,7 +1083,7 @@ table thead td.headerSortDown span { background: url(../images/icons/sortDown.pn
 .formRow .checker, .formRow .radio { margin-right: 12px; margin-top: 4px; }
 .formRow .formRight { display: block; float: right; width: 80%; margin-right: 18px; }
 
-.form input[type=text], .form input[type=password], .form textarea { font-size: 11px; padding: 7px 6px; background: white; border: 1px solid #DDD; width: 100%; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 0 0 2px #f4f4f4; -webkit-box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; color: #656565; }
+.form input[type=text], .form input[type=password], .form textarea { font-size: 11px; padding: 7px 6px; background: white; border: 1px solid #DDD; width: 100%; font-family: Arial, Helvetica, sans-serif; color: #656565; }
 .form input[type=text]:hover, .form input[type=password]:hover, .form textarea:hover { border-color: #d5d9dc; background: #fdfdfd; }
 .form input[type=text]:focus, .form input[type=password]:focus, .form textarea:focus { border-color: #d5d9dc; background: #fff; -webkit-box-shadow: 0 0 0 2px #f4f4f4; box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; }
 input[readonly], input[disabled] { background: #FCFCFC; border: 1px solid #DADADA; color: #D1D1D1; }
@@ -1667,4 +1672,123 @@ ul li ul.submenu li:hover:first-child {
 
 
 
+}
+#page-header {
+    z-index: 60;
+    position: relative;
+}
+
+#page-header, #page-wrapper {
+    max-width: 3000px;
+    transition: max-width .7s ease;
+    -moz-transition: max-width .7s ease;
+    -webkit-transition: max-width .7s ease;
+}
+
+#header-logo, #page-header {
+    height: 78px;
+}
+
+#page-header, #page-sidebar, .main-header, .top-bar {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.bg-gradient-9 {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+    background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#008fe2),color-stop(100%,#00b29c));
+    background: -webkit-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+    background: -o-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+    background: -ms-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+    background: linear-gradient(154deg,#008fe2 0,#00b29c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008fe2', endColorstr='#00b29c', GradientType=1);
+}
+
+.bg-gradient-1, .bg-gradient-2, .bg-gradient-3, .bg-gradient-4, .bg-gradient-5, .bg-gradient-6, .bg-gradient-7, .bg-gradient-8, .bg-gradient-9 {
+    background-color: transparent!important;
+}
+@media only screen and (min-width: 56.25em)
+admin-all-demo.css:19
+#header-logo, #theme-options {
+    display: block;
+}
+@media only screen and (min-width: 20em)
+admin-all-demo.css:19
+#header-logo, #theme-options {
+    display: none;
+}
+
+#header-logo, #page-sidebar {
+    transition: width .7s ease;
+    -moz-transition: width .7s ease;
+    -webkit-transition: width .7s ease;
+}
+
+#header-logo {
+    width: 260px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    position: relative;
+}
+
+#header-logo, #page-header {
+    height: 78px;
+}
+#page-header .user-account-btn>a.user-profile .glyph-icon, .logo-bg {
+    background-color: rgba(255,255,255,.1);
+    color: #fff;
+}
+#header-logo .logo-content-big, .logo-content-small {
+    background: url(../images/logo_login.png) left 50% no-repeat;
+    text-indent: -999em;
+    position: absolute;
+    height: 34px;
+    width: 190px;
+    left: 10px;
+    top: 50%;
+    margin-top: -17px;
+}
+#page-content-wrapper {
+    z-index: 50;
+}
+#page-content {
+    background: #fafcfe;
+}
+
+#page-content, #page-sidebar {
+    transition: margin .7s ease;
+    -moz-transition: margin .7s ease;
+    -webkit-transition: margin .7s ease;
+}
+
+#page-sidebar {
+    width: 260px;
+    float: left;
+    position: relative;
+    margin-right: -100%;
+    z-index: 160;
+}
+#page-content-wrapper {
+    z-index: 50;
+}
+
+#page-content-wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 140;
+}
+#page-content {
+    background: #fafcfe;
+    margin-left: 260px;
+}
+.title h4{
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
